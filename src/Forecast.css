@@ -1,0 +1,23 @@
+.Forecast {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.forecast-day {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.weather-icon {
+  font-size: 50px;
+}
+
+.forecast-temp-high {
+  font-weight: bold;
+  font-size: 24px;
+  color: rgba(214, 214, 214, 0.9);
+}
+
+.forecast-temp-low {
+  font-size: 18px;
+  color: rgba(197, 196, 196, 0.8);
+}
