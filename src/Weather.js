@@ -1,5 +1,7 @@
 import React from "react";
+import "./Weather.css";
+import Search from "./Search";
 
 export default function Weather() {
-  return <h2>Hello from Weather</h2>;
+  return <Search />;
 }
