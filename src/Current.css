@@ -1,0 +1,55 @@
+.Current .description {
+  color: rgb(224, 224, 224);
+  font-size: 20px;
+}
+
+.Current ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Current li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(224, 224, 224);
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 24px;
+}
+
+.Current li:first-letter {
+  text-transform: capitalize;
+}
+
+.Current a {
+  text-decoration: none;
+  color: rgb(129, 96, 128);
+}
+
+.Current img {
+  height: 64px;
+  width: 64px;
+}
+
+.Current .current-temperature strong {
+  color: rgb(224, 224, 224);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.Current .current-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.Current .current-temperature .active {
+  color: rgb(224, 224, 224);
+  cursor: default;
+}
+
+.Current .current-temperature .active:hover {
+  text-decoration: none;
+}
