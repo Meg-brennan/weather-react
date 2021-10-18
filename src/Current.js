@@ -19,7 +19,7 @@ export default function Current(props) {
                 <a href="/" className="active">
                   F
                 </a>{" "}
-                <a href="/">C</a>
+                | <a href="/">C</a>
               </span>
             </div>
           </div>
