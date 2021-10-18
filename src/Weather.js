@@ -10,7 +10,7 @@ export default function Weather() {
     date: "Sunday 6:00pm",
     description: "Partly Cloudy",
     imgUrl: "https://ssl.gstatic.com/onebox/weather/64/sunny.png",
-    temperature: 19,
+    temperature: 67,
     humidity: 80,
     wind: 10,
   };
