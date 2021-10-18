@@ -7,7 +7,7 @@ import Forecast from "./Forecast";
 export default function Weather() {
   let weatherData = {
     city: "Tokyo",
-    date: "Friday 6:00pm",
+    date: "Sunday 6:00pm",
     description: "Partly Cloudy",
     imgUrl: "https://ssl.gstatic.com/onebox/weather/64/sunny.png",
     temperature: 19,
