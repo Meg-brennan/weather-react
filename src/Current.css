@@ -43,6 +43,7 @@
   position: relative;
   font-size: 16px;
   top: -34px;
+  left: 4px;
 }
 
 .Current .current-temperature .active {
