@@ -12,12 +12,13 @@ export default function Search() {
               placeholder="Enter a city..."
               className="form-control"
               autoComplete="off"
+              autoFocus="on"
             />
           </div>
           <div className="col-2">
             <input
               type="submit"
-              className="btn btn-dark"
+              className="btn btn-dark w-100"
               value="Search"
               title="Search"
             />
