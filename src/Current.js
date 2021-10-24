@@ -7,7 +7,9 @@ export default function Current(props) {
       <div className="row display-flex">
         <div className="col-4 align-self-center">
           <div className="text-center">
-            <div className="description">{props.description}</div>
+            <div className="description text-capitalize">
+              {props.description}
+            </div>
             <img src={props.imgUrl} alt={props.description} />
           </div>
         </div>
