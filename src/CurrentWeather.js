@@ -1,16 +1,16 @@
 import React from "react";
-import "./Current.css";
+import "./CurrentWeather.css";
 
-export default function Current(props) {
+export default function CurrentWeather(props) {
   return (
-    <div className="Current">
+    <div className="CurrentWeather">
       <div className="row display-flex">
         <div className="col-4 align-self-center">
           <div className="text-center">
             <div className="description text-capitalize">
               {props.description}
             </div>
-            <img src={props.imgUrl} alt={props.description} />
+            <img src={props.iconUrl} alt={props.description} />
           </div>
         </div>
         <div className="col-4 align-self-center text-center">

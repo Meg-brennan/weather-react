@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./Weather.css";
 import Search from "./Search";
-import Current from "./Current";
+import CurrentWeather from "./CurrentWeather";
 import Forecast from "./Forecast";
 import FormattedDate from "./FormattedDate";
 
@@ -32,7 +32,7 @@ export default function Weather(props) {
           Last Updated: <FormattedDate date={weatherData.date} />
         </h2>
 
-        <Current
+        <CurrentWeather
           description={weatherData.description}
           imgUrl={weatherData.iconUrl}
           temperature={Math.round(weatherData.temperature)}

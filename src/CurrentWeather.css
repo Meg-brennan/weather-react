@@ -1,14 +1,14 @@
-.Current .description {
+.CurrentWeather .description {
   color: rgb(224, 224, 224);
   font-size: 20px;
 }
 
-.Current ul {
+.CurrentWeather ul {
   margin: 0;
   padding: 0;
 }
 
-.Current li {
+.CurrentWeather li {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -18,39 +18,39 @@
   line-height: 24px;
 }
 
-.Current li:first-letter {
+.CurrentWeather li:first-letter {
   text-transform: capitalize;
 }
 
-.Current a {
+.CurrentWeather a {
   text-decoration: none;
   color: rgb(129, 96, 128);
 }
 
-.Current img {
+.CurrentWeather img {
   height: 64px;
   width: 64px;
 }
 
-.Current .current-temperature strong {
+.CurrentWeather .current-temperature strong {
   color: rgb(224, 224, 224);
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
 }
 
-.Current .current-temperature .units {
+.CurrentWeather .current-temperature .units {
   position: relative;
   font-size: 16px;
   top: -34px;
   left: 4px;
 }
 
-.Current .current-temperature .active {
+.CurrentWeather .current-temperature .active {
   color: rgb(224, 224, 224);
   cursor: default;
 }
 
-.Current .current-temperature .active:hover {
+.CurrentWeather .current-temperature .active:hover {
   text-decoration: none;
 }
