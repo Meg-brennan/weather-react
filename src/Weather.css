@@ -26,3 +26,7 @@ h2 {
   line-height: 19px;
   margin-bottom: 40px;
 }
+
+.Weather canvas {
+  margin-top: 5px;
+}
