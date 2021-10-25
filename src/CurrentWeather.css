@@ -32,25 +32,28 @@
   width: 64px;
 }
 
-.CurrentWeather .current-temperature strong {
+.CurrentWeather .CurrentTemperature strong {
   color: rgb(224, 224, 224);
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
 }
 
-.CurrentWeather .current-temperature .units {
+.CurrentWeather .CurrentTemperature .units {
   position: relative;
   font-size: 16px;
   top: -34px;
-  left: 4px;
+  left: 6px;
 }
 
-.CurrentWeather .current-temperature .active {
+.CurrentWeather .CurrentTemperature .active {
   color: rgb(224, 224, 224);
   cursor: default;
+  font-size: 24px;
+  position: relative;
+  top: 6px;
 }
 
-.CurrentWeather .current-temperature .active:hover {
+.CurrentWeather .CurrentTemperature .active:hover {
   text-decoration: none;
 }
