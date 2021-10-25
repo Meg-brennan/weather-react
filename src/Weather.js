@@ -4,6 +4,7 @@ import "./Weather.css";
 import Search from "./Search";
 import Current from "./Current";
 import Forecast from "./Forecast";
+import FormattedDate from "./FormattedDate";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -18,7 +19,7 @@ export default function Weather(props) {
       humidity: response.data.main.humidity,
       wind: response.data.wind.speed,
       iconUrl: "",
-      date: "4:30pm Sunday, October 24",
+      date: new Date(response.data.dt * 1000),
     });
   }
 
@@ -27,7 +28,10 @@ export default function Weather(props) {
       <div className="Weather">
         <Search />
         <h1>{weatherData.city}</h1>
-        <h2>Last updated: {weatherData.date}</h2>
+        <h2>
+          Last Updated: <FormattedDate date={weatherData.date} />
+        </h2>
+
         <Current
           description={weatherData.description}
           imgUrl={weatherData.iconUrl}
