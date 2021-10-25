@@ -1,12 +1,21 @@
 import "./App.css";
 import Weather from "./Weather";
-import Footer from "./Footer";
 
 export default function App() {
   return (
     <div className="App">
       <Weather defaultCity="New York" />
-      <Footer />
+
+      <div className="Footer">
+        <a
+          href="https://github.com/Meg-brennan/weather-react"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open-source code
+        </a>{" "}
+        by Megan Brennan
+      </div>
     </div>
   );
 }

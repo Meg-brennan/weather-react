@@ -4,3 +4,10 @@
   max-width: 700px;
   margin: 30px auto;
 }
+
+.App .Footer {
+  font-size: 13px;
+  color: rgb(135, 135, 135);
+  text-align: center;
+  margin: 20px auto;
+}
