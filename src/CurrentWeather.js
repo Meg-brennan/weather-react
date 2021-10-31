@@ -18,7 +18,11 @@ export default function CurrentWeather(props) {
             <div className="description text-capitalize">
               {props.data.description}
             </div>
-            <WeatherIcon code={props.data.icon} alt={props.data.description} />
+            <WeatherIcon
+              code={props.data.icon}
+              alt={props.data.description}
+              size={60}
+            />
           </div>
         </div>
         <div className="col-4 align-self-center text-center">
