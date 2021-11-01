@@ -8,7 +8,6 @@ export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity] = useState(props.defaultCity);
   function handleResponse(response) {
-    console.log(response.data);
     setWeatherData({
       ready: true,
       coordinates: response.data.coord,
@@ -24,7 +23,7 @@ export default function Weather(props) {
   }
 
   function search() {
-    const apiKey = "2d49537948fa87956fadba800277c864";
+    const apiKey = "5b5bbe4c20f82d4156baf082b449b8f8";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
 
     axios.get(apiUrl).then(handleResponse);
