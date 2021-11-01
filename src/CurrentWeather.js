@@ -27,7 +27,7 @@ export default function CurrentWeather(props) {
         <div className="col-4 align-self-center text-center">
           <div>
             <strong>{Math.round(props.data.temperature)}</strong>
-            <span className="unit">F</span>
+            <span className="unit">°F</span>
           </div>
         </div>
         <div className="col-4 align-self-center">

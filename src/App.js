@@ -14,7 +14,14 @@ export default function App() {
         >
           Open-source code
         </a>{" "}
-        by Megan Brennan
+        by Megan Brennan and{" "}
+        <a
+          href="https://silly-payne-02c4d0.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          hosted on Netlify
+        </a>
       </div>
     </div>
   );
